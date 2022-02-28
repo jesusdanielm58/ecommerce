@@ -1,7 +1,7 @@
 const dataUsers = [{
   name: 'jesus',
   email: 'jesusmarcano16@gmail.com',
-  password: '1234',
+  password: '12345678',
   isAdmin: false
 }, {
   name: 'kaladin',
