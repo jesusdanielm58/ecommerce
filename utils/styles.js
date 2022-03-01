@@ -1,3 +1,4 @@
+import { grey } from '@mui/material/colors'
 const UseStyles = {
   navBar: {
     backgroundColor: '#102030',
@@ -11,7 +12,8 @@ const UseStyles = {
     fontWeight: 'bold'
   },
   main: {
-    minHeight: '80vh'
+    minHeight: '80vh',
+    // backgroundColor: grey[50]
   },
   footer: {
     textAlign: 'center'

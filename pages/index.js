@@ -16,12 +16,14 @@ export default function Home () {
   return (
     <Layout title='mamazon'>
       <div className={styles.container}>
-        <h1>title</h1>
+        <Typography component='h1' variant='h1'>
+          Products
+        </Typography>
         <Grid container spacing={2}>
           {data.map((elem) => {
             return (
               <Grid item md={4} key={elem.name}>
-                <Card>
+                <Card sx={{ boxShadow: 3 }}>
                   <Link href={`/products/${elem.slug}`} passHref>
                     <CardActionArea>
                       <CardMedia component='img' image={elem.image} title={elem.name} />
@@ -32,11 +34,11 @@ export default function Home () {
                       </CardContent>
                     </CardActionArea>
                   </Link>
-                  <CardActions>
+                  <CardActions style={{ paddingLeft: '10px' }}>
                     <Typography>
                       ${elem.price}
                     </Typography>
-                    <Button onClick={() => addToCartHandler(elem)} variant='text' size='small' color='primary'>Add to car</Button>
+                    <Button onClick={() => addToCartHandler(elem)} variant='text' size='small' color='primary'>Add to cart</Button>
                   </CardActions>
                 </Card>
               </Grid>

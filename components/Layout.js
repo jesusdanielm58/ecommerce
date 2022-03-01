@@ -51,8 +51,8 @@ const Layout = ({ title, children, description }) => {
         <Container sx={useStyles.main}>
           {children}
         </Container>
-        <footer>
-          <Typography sx={useStyles.footer}>todos los derechos reservados mamazon</Typography>
+        <footer style={{ margin: '20px 0' }}>
+          <Typography sx={useStyles.footer}>All rights reserved mamazon</Typography>
         </footer>
       </ThemeProvider>
     </div>

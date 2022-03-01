@@ -18,12 +18,12 @@ const cart = () => {
   return (
     <Layout title='cart'>
       <Typography component='h1' variant='h1'>
-        Cart {context.state.cart.length}
+        Cart
       </Typography>
       {context.state.cart.length === 0
         ? <div>
           <Typography>
-            Cart is empty <Link href='/' passHref><MaterialLink>volver al inicio</MaterialLink></Link>
+            Cart is empty, <Link href='/' passHref><MaterialLink>go back</MaterialLink></Link>
           </Typography>
         </div>  // eslint-disable-line  
         : <Grid container spacing={1}>

@@ -23,7 +23,7 @@ const products = () => {
 
           <Link href='/' passHref>
             <MaterialLink>
-              <Typography>volver a inicio</Typography>
+              <Typography>Go back home</Typography>
             </MaterialLink>
 
           </Link>
@@ -53,7 +53,7 @@ const products = () => {
                       <Typography>Price</Typography>
                     </Grid>
                     <Grid item xs={6}>
-                      <Typography>{product.price}</Typography>
+                      <Typography>${product.price}</Typography>
                     </Grid>
                   </Grid>
                 </ListItem>

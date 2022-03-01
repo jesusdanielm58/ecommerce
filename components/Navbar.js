@@ -54,7 +54,7 @@ const Navbar = () => {
                 {userInfo.name}
               </Button>
               <Menu id='simple-menu' anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={loginMenuCloseHandler}>
-                <MenuItem onClick={(e) => loginMenuCloseHandler(e, '/profile')}>
+                {/* <MenuItem onClick={(e) => loginMenuCloseHandler(e, '/profile')}>
                   Profile
                 </MenuItem>
                 <MenuItem onClick={(e) => loginMenuCloseHandler(e, '/order-history')}>
@@ -64,7 +64,7 @@ const Navbar = () => {
                   <MenuItem onClick={(e) => loginMenuCloseHandler(e, '/admin/dashboard')}>
                     Admin Dashboard
                   </MenuItem>
-                )}
+                )} */}
                 <MenuItem onClick={logoutClickHandler}>Logout</MenuItem>
               </Menu>
               </> // eslint-disable-line
@@ -73,7 +73,6 @@ const Navbar = () => {
                 login
               </MaterialLink>
             </Link>}
-          <Button onClick={() => console.log(context.state)}>state</Button>
         </div>
       </Toolbar>
     </AppBar>

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import Layout from '../components/Layout'
-import { Stepper, Step, StepLabel, Typography, Grid, TableContainer, Table, TableHead, TableBody, TableRow, TableCell, Select, MenuItem, Button, Link as MaterialLink, Card, List, ListItem } from '@mui/material'
+import { Stepper, Step, StepLabel, Typography, Grid, TableContainer, Table, TableHead, TableBody, TableRow, TableCell, Button, Link as MaterialLink, Card, List, ListItem } from '@mui/material'
 import Image from 'next/image'
 import Link from 'next/link'
 import Store from '../utils/Store'
@@ -40,7 +40,7 @@ const placeorder = () => {
               </ListItem>
               <ListItem>
                 <Typography>
-                  sample text of the shipping address tal tal blalahoakshdlkhsldkh lakshdlkhj aoihsldkhflsh lshdlkhslh
+                  In construction bla bla bla lsdkjslkdjlksjdlkjs lskjdljksldkj lksjkjsdlkjslkdj lksjdlkjsldkjlskjdl sldkjlkj
                 </Typography>
               </ListItem>
             </List>
@@ -54,7 +54,7 @@ const placeorder = () => {
               </ListItem>
               <ListItem>
                 <Typography>
-                  paypal u otro
+                  In construction bla bla bla lsdkjslkdjlksjdlkjs lskjdljksldkj lksjkjsdlkjslkdj lksjdlkjsldkjlskjdl sldkjlkj
                 </Typography>
               </ListItem>
             </List>

@@ -97,6 +97,9 @@ const login = () => {
             <Button variant='contained' type='submit' fullWidth>login</Button>
           </ListItem>
           <ListItem>
+            <Typography>email: jesusmarcano16@gmail.com, password: 12345678</Typography>
+          </ListItem>
+          <ListItem>
             <Link href='/register' passHref>
               <MaterialLink color='secondary'>Don't have an account?</MaterialLink>
             </Link>
